@@ -2,7 +2,7 @@ import { internshipWorkList, fulltimeWorkList } from "../Utils/constant";
 
 const Experience = () => {
     return (
-        <div className="experience flex flex-col w-full h-[700px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
+        <div className="experience flex flex-col w-full h-[700px] max-[900px]:h-[1800px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
                         <p className="text-4xl font-bold p-4">Experience</p>
            <div className="experience_internship px-4 flex flex-col gap-5">
                 <div className="company_section flex items-center gap-4 pt-4">

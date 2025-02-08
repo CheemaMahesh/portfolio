@@ -1,7 +1,7 @@
 import { skillList } from "../Utils/constant";
 const Skills = () => {
     return (
-        <div className="skills flex flex-col w-full h-[700px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
+        <div className="skills max-[900px]:h-[2500px] flex flex-col w-full h-[700px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
             <p className="text-4xl font-bold p-4">Skills</p>
             <div className="px-4 flex items-cener gap-24 flex-wrap">
                 {skillList.map((item, index) => (
