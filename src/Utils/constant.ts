@@ -1,3 +1,102 @@
+import typeScript from '../assets/typescript.png';
+import react from '../assets/logo_dark.svg';
+import next from '../assets/nextjs.svg';
+import NodeJS from '../assets/Node.js_logo.svg.png';
+import expressJS from '../assets/expressjs.png';
+import mongo from '../assets/mongo.avif';
+import tailwind from '../assets/tailwind.png';
+import html from '../assets/html.webp';
+import css from '../assets/css.png';
+import javascript from '../assets/javascript.png';
+import git from '../assets/git.png';
+import github from '../assets/github.png';
+import figma from '../assets/figma.png';
+import vscode from '../assets/vscode.png';
+import postman from '../assets/postman.png';
+import postgresql from '../assets/Postgresql.png';
+import firebase from '../assets/firebase.png';
+import redux from '../assets/redux.png';
+import jwt from '../assets/jwt.jpg';
+
+export const skillList = [
+    {
+        skill: 'TypeScript',
+        imgsrc: typeScript,
+    },
+    {
+        skill: 'React',
+        imgsrc: react,
+    },
+    {
+        skill: 'Next.js',
+        imgsrc: next,
+    },
+    {
+        skill: 'Node.js',
+        imgsrc: NodeJS,
+    },
+    {
+        skill: 'Express.js',
+        imgsrc: expressJS,
+    },
+    {
+        skill: 'MongoDB',
+        imgsrc: mongo,
+    },
+    {
+        skill: 'Tailwind',
+        imgsrc: tailwind,
+    },
+    {
+        skill: 'HTML',
+        imgsrc: html,
+    },
+    {
+        skill: 'CSS',
+        imgsrc: css,
+    },
+    {
+        skill: 'JavaScript',
+        imgsrc: javascript,
+    },
+    {
+        skill: 'Git',
+        imgsrc: git,
+    },
+    {
+        skill: 'GitHub',
+        imgsrc: github,
+    },
+    {
+        skill: 'Figma',
+        imgsrc: figma,
+    },
+    {
+        skill: 'VSCode',
+        imgsrc: vscode,
+    },
+    {
+        skill: 'Postman',
+        imgsrc: postman,
+    },
+    {
+        skill: 'Postgresql',
+        imgsrc: postgresql,
+    },
+    {
+        skill: 'Firebase',
+        imgsrc: firebase,
+    },
+    {
+        skill: 'Redux',
+        imgsrc: redux,
+    },
+    {
+        skill: 'JWT',
+        imgsrc: jwt,
+    }
+];
+
 export const NavList = [
     'Home',
     'About',
@@ -36,83 +135,4 @@ export const fulltimeWorkList = [
     'Streamlined course management processes, making it easier for instructors to manage and deliver content.',
     'Enhanced accessibility to educational resources through effective platform design and functionality.',
 
-];
-
-export const skillList = [
-    {
-        skill: 'TypeScript',
-        imgsrc: 'src/assets/typescript.png'
-    },
-    {
-        skill: 'React',
-        imgsrc: 'src/assets/logo_dark.svg'
-    },
-    {
-        skill: 'Next.js',
-        imgsrc: 'src/assets/nextjs.svg'
-    },
-    {
-        skill: 'Node.js',
-        imgsrc: 'src/assets/Node.js_logo.svg.png'
-    },
-    {
-        skill: 'Express.js',
-        imgsrc: 'src/assets/expressjs.png'
-    },
-    {
-        skill: 'MongoDB',
-        imgsrc: 'src/assets/mongo.avif'
-    },
-    {
-        skill: 'Tailwind',
-        imgsrc: 'src/assets/tailwind.png'
-    },
-    {
-        skill: 'HTML',
-        imgsrc: "src/assets/html.webp"
-    },
-    {
-        skill: 'CSS',
-        imgsrc: 'src/assets/css.png'
-    },
-    {
-        skill: 'JavaScript',
-        imgsrc: 'src/assets/javascript.png'
-    },
-    {
-        skill: 'Git',
-        imgsrc: 'src/assets/git.png' 
-    },
-    {
-        skill: 'GitHub',
-        imgsrc: 'src/assets/github.png'
-    },
-    {
-        skill: 'Figma',
-        imgsrc: 'src/assets/figma.png'
-    },
-    {
-        skill:'VSCode',
-        imgsrc:'src/assets/vscode.png',
-    },
-    {
-        skill: 'Postman',
-        imgsrc: 'src/assets/postman.png'
-    },
-    {
-        skill:'Postgresql',
-        imgsrc:'src/assets/Postgresql.png'
-    },
-    {
-        skill:'Firebase',
-        imgsrc:'src/assets/firebase.png'
-    },
-    {
-        skill: 'Redux',
-        imgsrc: 'src/assets/redux.png'
-    },
-    {
-        skill: 'JWT',
-        imgsrc: 'src/assets/jwt.jpg'
-    }
 ];

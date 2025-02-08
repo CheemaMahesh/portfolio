@@ -1,4 +1,10 @@
 import { Bounce, toast } from "react-toastify";
+import linkedin from '../assets/icons8-linkedin-48.png';
+import email from '../assets/icons8-email-100 (1).png';
+import phone from '../assets/icons8-phone-50.png';
+import github from '../assets/github.png';
+import x from '../assets/x_2.webp';
+import naukri from '../assets/naukri.svg';
 
 const Contact = () => {
     const copyToClipboard = (type: string) => {
@@ -28,34 +34,34 @@ const Contact = () => {
             <div className="flex gap-4 max-[900px]:flex-col max-[900px]:w-full max-[900px]:h-[1200px] max-[900px]:items-center">
                 <a href="https://www.linkedin.com/in/mahesh-cheema-a7b771271/" target="_blank">
                 <div className="share_labels hover:bg-[#2c3437]">
-                    <img className="w-6 h-6" src="src\assets\icons8-linkedin-48.png" alt="" />
+                    <img className="w-6 h-6" src={linkedin} alt="" />
                     <p>Linkedin</p>
                 </div>
                 </a>
                 <div className="share_labels hover:bg-[#2c3437]" onClick={() => copyToClipboard('Email')}>
-                    <img className="w-6 h-6" src="src\assets\icons8-email-100 (1).png" alt="" />
+                    <img className="w-6 h-6" src={email} alt="" />
                     <p>Email</p>
                 </div>
                 <div className="share_labels hover:bg-[#2c3437]" onClick={() => copyToClipboard('Phone Number')}>
-                    <img className="w-6 h-6" src="src\assets\icons8-phone-50.png" alt="" />
+                    <img className="w-6 h-6" src={phone} alt="" />
                     <p>Phone</p>
                 </div>
                 <br/>
                 <a href="https://github.com/CheemaMahesh" target="_blank">
                 <div className="share_labels hover:bg-[#2c3437]">
-                    <img className="w-6 h-6" src="src\assets\github.png" alt="" />
+                    <img className="w-6 h-6" src={github} alt="" />
                     <p>Github</p>
                 </div>
                 </a>
                 <a href="https://x.com/mahesh_k1001" target="_blank">
                 <div className="share_labels hover:bg-[#2c3437]">
-                    <img className="w-6 h-6" src="src\assets\x_2.webp" alt="" />
+                    <img className="w-6 h-6" src={x} alt="" />
                     <p>X.Com</p>
                 </div>
                 </a>
                 <a href="https://www.naukri.com/mnjuser/homepage" target="_blank">
                 <div className="share_labels hover:bg-[#2c3437]">
-                    <img className="w-12 h-6" src="src\assets\naukri.svg" alt="" />
+                    <img className="w-12 h-6" src={naukri} alt="" />
                 </div>
                 </a>
             </div>

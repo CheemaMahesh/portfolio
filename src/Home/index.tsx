@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 import { mySelftList } from "../Utils/constant";
 import { Bounce, toast } from 'react-toastify';
+import download from '../assets/icons8-download-24.png';
+import linkedin from '../assets/icons8-linkedin-48.png';
+import phone from '../assets/icons8-phone-50.png';
+import email from '../assets/icons8-email-100 (1).png';
+import homeimg from '../assets/imagev2.gif';
+
 
 const Home = () => {
     const [currentOne, setCurrentOne] = useState<string>('');
@@ -47,29 +53,29 @@ const Home = () => {
             <a href="https://drive.google.com/file/d/1f1i7qlBsUgJoFrtgxsbjqssse8ddz-ZA/view?usp=sharing" target="_blank">
             <div className="w-[320px] h-[43px] rounded-md border-[1px] border-[#172c13] border-solid flex items-center justify-center cursor-pointer hover:bg-[#2c3437] bg-[#070d06]">
                 <p className="text-white font-bold">Download My Resume</p>
-                <img src="src\assets\icons8-download-24.png" className="w-6 h-6 p-1" />
+                <img src={download} className="w-6 h-6 p-1" />
             </div>
             </a>
             <div className="flex gap-4">
                 <a href="https://www.linkedin.com/in/mahesh-cheema-a7b771271/" target="_blank">
                 <div className="share_labels hover:bg-[#2c3437]">
-                    <img className="w-6 h-6" src="src\assets\icons8-linkedin-48.png" alt="" />
+                    <img className="w-6 h-6" src={linkedin} alt="" />
                     <p>Linkedin</p>
                 </div>
                 </a>
                 <div className="share_labels hover:bg-[#2c3437]" onClick={() => copyToClipboard('Email')}>
-                    <img className="w-6 h-6" src="src\assets\icons8-email-100 (1).png" alt="" />
+                    <img className="w-6 h-6" src={email} alt="" />
                     <p>Email</p>
                 </div>
                 <div className="share_labels hover:bg-[#2c3437]" onClick={() => copyToClipboard('Phone Number')}>
-                    <img className="w-6 h-6" src="src\assets\icons8-phone-50.png" alt="" />
+                    <img className="w-6 h-6" src={phone} alt="" />
                     <p>Phone</p>
                 </div>
             </div>
         </div>
         {/* ------------------------------------------------------------ */}
         <div className="left_col w-4/12 max-[900px]:w-full p-10 flex flex-col gap-6">
-        <img src="src\assets\imagev2.gif" className="w-[320px] h-[320px]" />
+        <img src={homeimg} className="w-[320px] h-[320px]" />
             </div>
     </div>;
 };

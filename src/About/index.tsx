@@ -1,3 +1,4 @@
+import mahesh from '../assets/mahesh.jpg';
 
 const About = () => {
     return (
@@ -7,7 +8,7 @@ const About = () => {
                     About Me
                 </p>
                 <div className="profile_container w-[400px] h-[500px] border-[1px] border-[#808080] border-solid rounded-md p-3">
-                    <img className="w-full h-full rounded-md" src="src\assets\mahesh.jpg" />
+                    <img className="w-full h-full rounded-md" src={mahesh} />
                 </div>
             </div>
             <div className="right_section text-[#ffffff] w-7/12 max-[900px]:w-full flex flex-col p-2 py-4 gap-4">

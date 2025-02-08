@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavList } from "../Utils/constant";
 import github from '../assets/github.png';
+import linkedin from '../assets/icons8-linkedin-48.png';
 
 type Props = {
     currentOption?: string;
@@ -41,7 +42,7 @@ const Nav: React.FC<Props> = ({ setcurrentOption}) => {
                     <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src={github} alt="git icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/mahesh-cheema-a7b771271/" target="_blank" className="max-[900px]:hidden">
-                    <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src="src\assets\icons8-linkedin-48.png" alt="Linkedin icon" />
+                    <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src={linkedin} alt="Linkedin icon" />
                 </a>
             </div>
         </div>

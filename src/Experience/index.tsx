@@ -1,4 +1,5 @@
 import { internshipWorkList, fulltimeWorkList } from "../Utils/constant";
+import company from '../assets/antwalk_logo.jpg';
 
 const Experience = () => {
     return (
@@ -6,7 +7,7 @@ const Experience = () => {
                         <p className="text-4xl font-bold p-4">Experience</p>
            <div className="experience_internship px-4 flex flex-col gap-5">
                 <div className="company_section flex items-center gap-4 pt-4">
-                    <img className="w-24 h-24 rounded-full" src="src\assets\antwalk_logo.jpg" />
+                    <img className="w-24 h-24 rounded-full" src={company} />
                     <p className="text-2xl font-bold text-[#028A0F]">Antwalk Pvt. Ltd.</p>
                 </div>
                 <div className="role_details">
