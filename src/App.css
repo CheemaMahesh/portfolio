@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+:root{
+    min-width: 300px;
+}
+.share_labels{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 7px;
+    padding-block: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: fit-content;
+    background-color: #000;
+}
