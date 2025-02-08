@@ -1,13 +1,19 @@
 import { useState } from "react";
 import { NavList } from "../Utils/constant";
 
-const Nav = () => {
+type Props = {
+    currentOption?: string;
+     // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+     setcurrentOption?: Function;
+}
+
+const Nav: React.FC<Props> = ({ setcurrentOption}) => {
     const [current, setCurrent] = useState<number | null>(null);
     return (
-        <div className="sticky w-[100vw] h-[70px] bg-[#000] flex shadow-lg border-b-[1px] border-[#808080] border-solid justify-between px-2">
-            <div className="w-6/12 flex gap-[2px] items-center text-[#fff] font-semibold">
+        <div className="sticky top-0 w-full h-[70px] bg-[#000] flex shadow-lg border-b-[1px] border-[#808080] border-solid justify-between px-2">
+            <div className="w-6/12 flex gap-[10px] items-center text-[#fff] font-semibold pl-4">
                 {NavList.map((item, index) => (
-                    <div className={current === index ? "bg-[#2c3437] cursor-pointer py-1 px-3 rounded-md" : "bg-[#000] py-1 px-3 cursor-pointer"} onMouseEnter={() => setCurrent(index)} onMouseLeave={() => setCurrent(null)} key={index}>{item}</div>
+                    <div className={current === index ? "bg-[#2c3437] cursor-pointer py-1 px-3 rounded-md" : "bg-[#000] py-1 px-3 cursor-pointer"} onClick={() => setcurrentOption && setcurrentOption(item)} onMouseEnter={() => setCurrent(index)} onMouseLeave={() => setCurrent(null)} key={index}>{item}</div>
                 ))}
             </div>
             <div className="flex gap-4 items-center">
