@@ -31,19 +31,19 @@ const Home = () => {
     useEffect(() => {
         getCurrentOne();
     }, []);
-    return <div className="homepage flex w-full h-[600px] max-[900px]:h-[1000px] bg-[#000] max-[900px]:flex-col justify-around">
-        <div className="left_col w-7/12 max-[900px]:w-full p-10 flex flex-col gap-6">
+    return <div className="homepage flex w-full h-[500px] max-[900px]:h-[1000px] bg-[#000] max-[900px]:flex-col justify-around" >
+        <div className="left_col w-8/12 max-[900px]:w-full p-10 flex flex-col gap-8 max-[900px]:pb-4">
             <div className="w-[320px] h-[35px] bg-[#2c3437] rounded-[20px] border-[1px] border-[#028A0F] border-solid flex items-center gap-3">
                     <div className="ml-[2px] px-3 py-[1px] bg-[#028A0F] rounded-[20px]">
                         <p className="text-white font-semibold">Welcome</p>
                     </div>
                     <p className="text-[#028A0F] font-semibold">to my portfolio website {'-->'}</p>
             </div>
-            <div className="flex gap-4 items-center max-[900px]:flex-col">
-                        <p className="text-3xl text-white font-semibold">Hey folks, I'm</p>
-                        <p className="text-4xl text-[#028A0F] font-bold">{currentOne}</p>
+            <div className="flex gap-4 items-center max-[900px]:flex-col max-[900px]:items-start">
+                        <p className="text-4xl text-white font-semibold max-[900px]:text-3xl">Hey folks, I'm</p>
+                        <p className="text-5xl text-[#028A0F] font-bold max-[900px]:text-4xl">{currentOne}</p>
             </div>
-            <p className="text-white italic text-lg max-[900px]:text-center">Building a successful product is a challenge. I bring expertise in user interfaces and web development</p>
+            <p className="text-white italic text-lg">Building a successful product is a challenge. I bring expertise in user interfaces and web development</p>
             <a href="https://drive.google.com/file/d/1f1i7qlBsUgJoFrtgxsbjqssse8ddz-ZA/view?usp=sharing" target="_blank">
             <div className="w-[320px] h-[43px] rounded-md border-[1px] border-[#172c13] border-solid flex items-center justify-center cursor-pointer hover:bg-[#2c3437] bg-[#070d06]">
                 <p className="text-white font-bold">Download My Resume</p>
@@ -68,8 +68,8 @@ const Home = () => {
             </div>
         </div>
         {/* ------------------------------------------------------------ */}
-        <div className="left_col w-5/12 max-[900px]:w-full p-10 flex flex-col gap-6">
-ld
+        <div className="left_col w-4/12 max-[900px]:w-full p-10 flex flex-col gap-6">
+        <img src="src\assets\imagev2.gif" className="w-[320px] h-[320px]" />
             </div>
     </div>;
 };

@@ -18,3 +18,11 @@
     width: fit-content;
     background-color: #000;
 }
+.homepage{
+    border-bottom: 1px solid #808080;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
