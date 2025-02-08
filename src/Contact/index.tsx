@@ -20,12 +20,12 @@ const Contact = () => {
             });
     }
     return(
-        <div className="contact flex flex-col justify-center items-center gap-5 w-full h-[450px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
+        <div className="contact max-[900px]:h-[1000px] flex flex-col justify-center items-center gap-5 w-full h-[450px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
             <p className="text-4xl font-bold p-4">Contact me</p>
-            <p className="text-6xl font-bold p-4">
+            <p className="text-6xl font-bold p-4 max-[900px]:text-5xl max-[900px]:text-center">
             Keep In Touch.
             </p>
-            <div className="flex gap-4 max-[900px]:flex-col max-[900px]:w-full max-[900px]:h-[1200px]">
+            <div className="flex gap-4 max-[900px]:flex-col max-[900px]:w-full max-[900px]:h-[1200px] max-[900px]:items-center">
                 <a href="https://www.linkedin.com/in/mahesh-cheema-a7b771271/" target="_blank">
                 <div className="share_labels hover:bg-[#2c3437]">
                     <img className="w-6 h-6" src="src\assets\icons8-linkedin-48.png" alt="" />
