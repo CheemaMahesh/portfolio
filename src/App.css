@@ -1,7 +1,6 @@
 @import "tailwindcss";
-
-:root{
-    min-width: 300px;
+body{
+    min-width: 400px;
 }
 .share_labels{
     display: flex;
@@ -18,7 +17,7 @@
     width: fit-content;
     background-color: #000;
 }
-.homepage{
+.homepage, .experience, .skills, .projects, .contact{
     border-bottom: 1px solid #808080;
 }
 
