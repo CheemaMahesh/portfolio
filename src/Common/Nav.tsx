@@ -20,7 +20,7 @@ const Nav: React.FC<Props> = ({ setcurrentOption}) => {
                 <input
                     placeholder="
     Start Typing......."
-                    className="w-[250px] h-9 p-2 cursor-pointer rounded-[3px] outline-none"
+                    className="w-[250px] h-9 p-2 cursor-pointer rounded-[3px] outline-none max[900px]:invisible"
                     type="text"
                     style={{ background: 'radial-gradient(circle, #C0C0C0, #2c3437)' }}
                 />                    {/* TODO: Add light mode icon */}

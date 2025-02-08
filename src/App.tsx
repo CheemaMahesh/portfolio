@@ -5,6 +5,8 @@ import { ToastContainer } from 'react-toastify';
 import About from './About';
 import { useEffect, useState } from 'react';
 import Experience from './Experience';
+import Skills from './Skills';
+import Contact from './Contact';
 
 function App() {
   const [currentOption, setcurrentOption] = useState<string>('');
@@ -36,6 +38,12 @@ useEffect(() => {
       </div>
       <div id="Experience">
       <Experience />
+      </div>
+      <div id="Skills">
+      <Skills />
+      </div>
+      <div id="Contact">
+      <Contact />
       </div>
       <ToastContainer />
     </>

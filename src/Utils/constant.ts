@@ -37,3 +37,82 @@ export const fulltimeWorkList = [
     'Enhanced accessibility to educational resources through effective platform design and functionality.',
 
 ];
+
+export const skillList = [
+    {
+        skill: 'TypeScript',
+        imgsrc: 'src/assets/typescript.png'
+    },
+    {
+        skill: 'React',
+        imgsrc: 'src/assets/logo_dark.svg'
+    },
+    {
+        skill: 'Next.js',
+        imgsrc: 'src/assets/nextjs.svg'
+    },
+    {
+        skill: 'Node.js',
+        imgsrc: 'src/assets/Node.js_logo.svg.png'
+    },
+    {
+        skill: 'Express.js',
+        imgsrc: 'src/assets/expressjs.png'
+    },
+    {
+        skill: 'MongoDB',
+        imgsrc: 'src/assets/mongo.avif'
+    },
+    {
+        skill: 'Tailwind',
+        imgsrc: 'src/assets/tailwind.png'
+    },
+    {
+        skill: 'HTML',
+        imgsrc: "src/assets/html.webp"
+    },
+    {
+        skill: 'CSS',
+        imgsrc: 'src/assets/css.png'
+    },
+    {
+        skill: 'JavaScript',
+        imgsrc: 'src/assets/javascript.png'
+    },
+    {
+        skill: 'Git',
+        imgsrc: 'src/assets/git.png' 
+    },
+    {
+        skill: 'GitHub',
+        imgsrc: 'src/assets/github.png'
+    },
+    {
+        skill: 'Figma',
+        imgsrc: 'src/assets/figma.png'
+    },
+    {
+        skill:'VSCode',
+        imgsrc:'src/assets/vscode.png',
+    },
+    {
+        skill: 'Postman',
+        imgsrc: 'src/assets/postman.png'
+    },
+    {
+        skill:'Postgresql',
+        imgsrc:'src/assets/Postgresql.png'
+    },
+    {
+        skill:'Firebase',
+        imgsrc:'src/assets/firebase.png'
+    },
+    {
+        skill: 'Redux',
+        imgsrc: 'src/assets/redux.png'
+    },
+    {
+        skill: 'JWT',
+        imgsrc: 'src/assets/jwt.jpg'
+    }
+];
