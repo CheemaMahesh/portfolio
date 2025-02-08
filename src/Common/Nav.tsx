@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavList } from "../Utils/constant";
+import github from '../assets/github.png';
 
 type Props = {
     currentOption?: string;
@@ -37,10 +38,10 @@ const Nav: React.FC<Props> = ({ setcurrentOption}) => {
                 />                    {/* TODO: Add light mode icon */}
                 <img className="w-9 h-9 p-1  rounded-full cursor-pointer hover:bg-[#2c3437] max-[900px]:hidden" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHy1kulKGFspFD5skFeQ_G9RzsJZ4pmAEmnQ&s" alt="Light Mode Icon" />
                 <a href="https://github.com/CheemaMahesh" target="_blank" className="max-[900px]:hidden">
-                    <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src="../src/assets/github.png" alt="git icon" />
+                    <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src={github} alt="git icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/mahesh-cheema-a7b771271/" target="_blank" className="max-[900px]:hidden">
-                    <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src="../src/assets/icons8-linkedin-48.png" alt="Linkedin icon" />
+                    <img className="w-8 h-8 p-1 rounded-full cursor-pointer hover:bg-[#2c3437]" src="src\assets\icons8-linkedin-48.png" alt="Linkedin icon" />
                 </a>
             </div>
         </div>
