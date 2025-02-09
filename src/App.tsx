@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import Experience from './Experience';
 import Skills from './Skills';
 import Contact from './Contact';
+import Projects from './Projects';
 
 function App() {
   const [currentOption, setcurrentOption] = useState<string>('');
@@ -15,7 +16,6 @@ function App() {
     if (element) {
       const elementPosition = element.getBoundingClientRect().top + window.scrollY;
       const offsetPosition = elementPosition - 70;
-  
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth'
@@ -41,6 +41,9 @@ useEffect(() => {
       </div>
       <div id="Skills">
       <Skills />
+      </div>
+      <div id="Projects">
+      <Projects />
       </div>
       <div id="Contact">
       <Contact />

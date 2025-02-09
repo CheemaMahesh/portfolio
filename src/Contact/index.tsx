@@ -26,7 +26,7 @@ const Contact = () => {
             });
     }
     return(
-        <div className="contact max-[900px]:h-[1000px] flex flex-col justify-center items-center gap-5 w-full h-[450px] bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
+        <div className="contact max-[900px]:h-[1000px] flex flex-col justify-center items-center gap-5 w-full h-fit bg-[#000] px-8 text-[#ffffff] p-10 gap-5">
             <p className="text-4xl font-bold p-4">Contact me</p>
             <p className="text-6xl font-bold p-4 max-[900px]:text-5xl max-[900px]:text-center">
             Keep In Touch.

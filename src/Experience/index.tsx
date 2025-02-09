@@ -11,6 +11,14 @@ const Experience = () => {
                     <p className="text-2xl font-bold text-[#028A0F]">Antwalk Pvt. Ltd.</p>
                 </div>
                 <div className="role_details">
+                    <p className="font-bold text-2xl">Associate Software Engineer (July 2024 - Present)</p>
+                    <ul className="italics font-semibold">
+                        {fulltimeWorkList?.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="role_details">
                     <p className="font-bold text-2xl">Front End - Internship (Jan 2024 - July 2024)</p>
                     <ul className="italics font-semibold">
                         {internshipWorkList?.map((item, index) => (
@@ -19,16 +27,9 @@ const Experience = () => {
                     </ul>
                 </div>
            </div>
-           <div>
-           <div className="role_details px-4">
-                    <p className="font-bold text-2xl">Associate Software Engineer (July 2024 - Present)</p>
-                    <ul className="italics font-semibold">
-                        {fulltimeWorkList?.map((item, index) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-           </div>
+           {/* <div>
+
+           </div> */}
         </div>
     )
 };
