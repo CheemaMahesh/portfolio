@@ -50,7 +50,7 @@ const Home = () => {
                         <p className="text-5xl text-[#028A0F] font-bold max-[900px]:text-4xl">{currentOne}</p>
             </div>
             <p className="text-white italic text-lg">Building a successful product is a challenge. I bring expertise in user interfaces and web development</p>
-            <a href="https://drive.google.com/file/d/1f1i7qlBsUgJoFrtgxsbjqssse8ddz-ZA/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/10YTieH6KuTmXICb0kpgsYD6D_oYkam83/view?usp=sharing" target="_blank">
             <div className="w-[320px] h-[43px] rounded-md border-[1px] border-[#172c13] border-solid flex items-center justify-center cursor-pointer hover:bg-[#2c3437] bg-[#070d06]">
                 <p className="text-white font-bold">Download My Resume</p>
                 <img src={download} className="w-6 h-6 p-1" />
