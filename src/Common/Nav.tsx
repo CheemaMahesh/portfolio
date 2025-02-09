@@ -21,7 +21,7 @@ const Nav: React.FC<Props> = ({ setcurrentOption}) => {
     ))}
 </div>
 
-            <div className="w-full gap-[10px] items-center text-[#fff] font-semibold pl-4 justify-center max-[900px]:gap-1 hidden max-[900px]:flex">
+            <div className="w-full gap-[10px] items-center text-[#fff] font-semibold pl-0 justify-center max-[900px]:gap-1 hidden max-[900px]:flex">
     {NavList.map((item, index) => (
         <div className={current === index ? "bg-[#2c3437] cursor-pointer py-1 px-3 rounded-md" : "bg-[#000] py-1 px-3 cursor-pointer"} onClick={() => setcurrentOption && setcurrentOption(item)} onMouseEnter={() => setCurrent(index)} onMouseLeave={() => setCurrent(null)} key={index}>
             {item?.slice(0, 3)?.toUpperCase()}
