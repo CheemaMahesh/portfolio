@@ -294,21 +294,18 @@ export const mySelftList = [
     'TECH LOVER',
 ];
 
-export const internshipWorkList = [
-    'Initiated and implemented new strategies to enhance component reusability across the application.',
-    'Developed customized form components using styled-components and Tailwind CSS for a consistent user interface.',
-    'Reduced the load time of API calls by 50 milliseconds through the implementation of custom hooks.',
-    'Enhanced the user experience by implementing responsive design and optimized the application for different screen sizes.',
-    'Improved maintainability and reduced development time by reusing components effectively.'
-];
 
 export const fulltimeWorkList = [
-    'Built an end-to-end cohort setup flow from creating a course to previewing and launching it, currently used by over 50 clients.',
-    'Contributed to the consumption flow, benefiting more than 4,000 learners across the country from various sectors.',
-    'Implemented an attendance feature for all live sessions to accurately track participant engagement.',
-    'Developed a feedback feature for courses to facilitate continuous improvement based on user input.',
-    'Ideated and designed intuitive user interfaces that significantly enhanced the overall user experience.',
-    'Streamlined course management processes, making it easier for instructors to manage and deliver content.',
-    'Enhanced accessibility to educational resources through effective platform design and functionality.',
-
+    'Built an end-to-end cohort setup flow, enabling seamless course creation, preview, and launch—currently empowering 50+ clients to streamline their operations.',
+    'Optimized the learning experience for 4,000+ learners nationwide by enhancing the course consumption flow across diverse sectors.',
+    'Implemented a robust attendance tracking system for live sessions, ensuring precise monitoring of participant engagement.',
+    'Developed a dynamic feedback system, driving continuous course improvements based on real-time learner insights.',
+    'Designed and implemented intuitive user interfaces, significantly elevating platform usability and engagement.',
+    'Streamlined course management workflows, simplifying content delivery and administration for instructors.',
+    'Enhanced accessibility to educational resources through well-structured platform architecture and seamless functionality.',
+    'Pioneered strategies for component reusability, improving development efficiency and scalability across the application.',
+    'Developed custom form components with styled-components and Tailwind CSS, ensuring a cohesive and modern UI.',
+    'Optimized API performance, reducing load times by 50ms with custom hooks for a faster and more efficient application.',
+    'Delivered a fully responsive and adaptive design, optimizing the user experience across all devices.',
+    'Improved maintainability and reduced development time through modular and reusable components, accelerating feature rollout.',
 ];

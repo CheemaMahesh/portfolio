@@ -17,19 +17,17 @@ const About = () => {
                     <p className="aboutmeText text-[#004830] text-lg font-bold">
                         Finally, we can talk about me, a blend of creativity with Tech.
                     </p>
-                    <p>Born in the small village at Andhra Pradesh in India, I’ve always been curious and inventive. Growing up surrounded by nature, I tinkered with machines and dreamed of technology.</p>
                     <p>
-                        After earning an undergraduate degree in B.Com Computer Applications, I took some time to reflect on my future and the domain I wanted to pursue. During this period, I decided to venture into the tech field. My journey began in January 2023, starting with Data Structures and Algorithms (DSA) in Java.
-
-                        Initially, it was quite challenging, especially since I came from a commerce background. However, I was determined to succeed and dedicated myself to learning and mastering the subject. This experience was rewarding, as I realized the value of acquiring a new skill without prior experience.
-
-                        After six months of studying DSA, I recognized the significance of web development and chose to focus on that area. It took considerable time and effort to learn and master web development, but I successfully built over 30 minor projects and 10 major projects.
-
-                        In September 2023, I began seeking job opportunities and felt excited about my future. In January 2024, I landed my first position as a Front-End Intern at a reputable company. After six months of hard work, I was promoted to Associate Software Engineer, and I am eager to continue learning and growing in this field.
+                    Born in a small village in Andhra Pradesh, India, I have always been curious and inventive. Growing up surrounded by nature, I tinkered with machines and dreamed of technology.
                     </p>
                     <p>
-                        While working at my current company, I developed a keen interest in Web 3.0, which represents the next evolution of the internet, focusing on decentralization, blockchain technology, and enhanced user privacy. This innovative paradigm shift has captivated my attention, prompting me to delve deeper into its concepts and applications. I have started studying various aspects of Web 3.0, including decentralized applications (dApps), smart contracts, and the underlying technologies that power them. As I continue my learning journey, I am excited about the potential of Web 3.0 to transform industries and empower individuals, and I look forward to applying this knowledge in my future projects.
+                    After earning an undergraduate degree in B.Com (Computer Applications), I took some time to reflect on my future and the domain I wanted to pursue. During this period, I decided to venture into the tech field. My journey began in January 2023 with Data Structures and Algorithms (DSA) in Java. Initially, it was quite challenging, especially since I came from a commerce background. However, I was determined to succeed and dedicated myself to learning and mastering the subject. This experience was rewarding, as I realized the value of acquiring a new skill without prior experience.
+
+After six months of studying DSA, I recognized the significance of web development and chose to focus on that area. It took considerable time and effort to learn and master web development, but I successfully built over 30 minor projects and 10 major projects. By September 2023, I began seeking job opportunities and felt excited about my future. In January 2024, I landed my first position as a Front-End Intern at a reputable company. After six months of hard work, I was promoted to Associate Software Engineer, and I am eager to continue learning and growing in this field.
+
                     </p>
+                    <p>
+                    While working at my current company, I developed a keen interest in Web 3.0, which represents the next evolution of the internet, focusing on decentralization, blockchain technology, and enhanced user privacy. This innovative paradigm shift has captivated my attention, prompting me to delve deeper into its concepts and applications. I have started studying various aspects of Web 3.0, including decentralized applications (dApps), smart contracts, and the underlying technologies that power them. As I continue my learning journey, I am excited about the potential of Web 3.0 to transform industries and empower individuals, and I look forward to applying this knowledge in my future projects.                    </p>
                 </div>
             </div>
         </div>
