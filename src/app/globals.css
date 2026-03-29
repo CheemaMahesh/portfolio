@@ -107,6 +107,18 @@ h6 {
   }
 }
 
+@layer utilities {
+  .bg-background-primary {
+    background-color: var(--background-primary);
+  }
+  .bg-background-secondary {
+    background-color: var(--background-secondary);
+  }
+  .bg-foreground {
+    background-color: var(--foreground);
+  }
+}
+
 .container {
   max-width: 1600px;
   margin: 0 auto;
