@@ -1,7 +1,9 @@
+import HomePage from "@/features/home/home";
+
 export default function Home() {
   return (
     <section>
-      <main>Hey asdddddddddddddddddddddddddddd</main>
+      <HomePage />
     </section>
   );
 }
