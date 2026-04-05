@@ -2,6 +2,9 @@
 
 import { motion } from "framer-motion";
 import { DetailsCardProps } from "../utils/types";
+import linkedinsrc from "../assets/linkedin.png";
+import Image from "next/image";
+import Link from "next/link";
 
 export const DetailsCard = ({
   title,
@@ -10,6 +13,8 @@ export const DetailsCard = ({
   description,
   isLeft = true,
   index = 0,
+  linkedin,
+  link,
 }: DetailsCardProps) => {
   return (
     <motion.div
@@ -29,7 +34,7 @@ export const DetailsCard = ({
         whileInView={{ scale: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.3 + index * 0.1, duration: 0.3 }}
-        className={`absolute top-1/2 transform -translate-y-1/2 w-4 h-4 bg-green-500 rounded-full border-4 border-background-primary z-10 ${
+        className={`absolute top-1/2 transform -translate-y-1/2 w-4 h-4 bg-green-700 rounded-full border-4 border-background-primary z-10 hidden md:block ${
           isLeft ? "-right-8" : "-left-8"
         }`}
       ></motion.div>
@@ -39,7 +44,7 @@ export const DetailsCard = ({
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.4 + index * 0.1, duration: 0.2 }}
-          className="w-3 h-3 bg-green-500 rounded-full"
+          className="w-3 h-3 bg-green-800 rounded-full"
         ></motion.div>
         <span className="text-sm text-gray-500">{period}</span>
       </div>
@@ -59,9 +64,21 @@ export const DetailsCard = ({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.6 + index * 0.1, duration: 0.4 }}
-        className="text-green-600 font-medium mb-3"
+        className="text-green-900 font-medium mb-3"
       >
-        {company}
+        <section className="flex items-center gap-2">
+          <Link href={link} target="_blank">
+            {company}
+          </Link>
+          <Link href={linkedin} target="_blank">
+            <Image
+              src={linkedinsrc.src}
+              alt="LinkedIn"
+              width={20}
+              height={20}
+            />
+          </Link>
+        </section>
       </motion.p>
 
       <motion.ul
@@ -83,7 +100,7 @@ export const DetailsCard = ({
             }}
             className="text-sm text-gray-600 flex items-start gap-2"
           >
-            <span className="text-green-500 mt-1">•</span>
+            <span className="text-green-900">•</span>
             <span>{item}</span>
           </motion.li>
         ))}

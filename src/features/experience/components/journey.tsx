@@ -15,7 +15,7 @@ export const Journey = () => {
               <div className="hidden md:flex w-full">
                 {index % 2 === 0 ? (
                   <>
-                    <div className="w-5/12">
+                    <div className="w-6/12">
                       <DetailsCard {...item} isLeft={true} index={index} />
                     </div>
                     <div className="w-2/12"></div>
@@ -25,7 +25,7 @@ export const Journey = () => {
                   <>
                     <div className="w-5/12"></div>
                     <div className="w-2/12"></div>
-                    <div className="w-5/12">
+                    <div className="w-6/12">
                       <DetailsCard {...item} isLeft={false} index={index} />
                     </div>
                   </>
