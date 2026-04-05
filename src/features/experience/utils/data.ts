@@ -39,15 +39,17 @@ export const journeyData: JourneyItem[] = [
     link: "https://www.antwalk.com",
     linkedin: "https://www.linkedin.com/company/antwalk",
   },
-  // {
-  //   title: "Fullstack Project: Orielix",
-  //   company: "Personal Project",
-  //   period: "March 2026 - Present",
-  //   description: [
-  //     "Conceptualized and developed a full-stack digital event management platform using a modern stack of React.js, Express.js, TypeScript, and MongoDB with Prisma ORM.",
-  //     "Integrated the Razorpay API to facilitate secure, PCI-compliant payment processing for event registrations and digital transactions.",
-  //     "Engineered real-time, dynamic dashboards and competitive leaderboards using Redux for state management to drive user engagement and data visualization.",
-  //     "Focused on creating an accessible and modern user experience (UX) by utilizing Tailwind CSS and ShadCn, ensuring performance was optimized across all device types.",
-  //   ],
-  // },
+  {
+    title: "Student (B.Com Computers) (6.67 / 10 CGPA)",
+    company: "Yogi Vemana University",
+    period: "AUG 2019 - OCT 2022",
+    description: [
+      "Developed foundational knowledge in economics and business administration while pursuing academic studies.",
+      "Explored web development concepts and built basic web and social applications as part of learning journey.",
+      "Gained hands on experience with modern web technologies including HTML, CSS, and JavaScript.",
+      "Applied business and economic principles to understand user needs and create practical digital solutions.",
+    ],
+    link: "https://yvu.edu.in",
+    linkedin: "https://www.linkedin.com/school/yogi-vemana-university-kadapa",
+  },
 ];

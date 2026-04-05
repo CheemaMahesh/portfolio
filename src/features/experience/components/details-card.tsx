@@ -68,7 +68,7 @@ export const DetailsCard = ({
       >
         <section className="flex items-center gap-2">
           <Link href={link} target="_blank">
-            {company}
+            <div className="text-lg font-bold">{company}</div>
           </Link>
           <Link href={linkedin} target="_blank">
             <Image
